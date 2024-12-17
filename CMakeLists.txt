@@ -43,7 +43,7 @@ list(APPEND COMPONENT_SRCS ./media_lib_sal/media_lib_crypt.c  ./media_lib_sal/po
 endif()
 
 
-set(COMPONENT_REQUIRES audio_pipeline audio_sal nghttp esp-tls esp_netif)
+set(COMPONENT_REQUIRES audio_stream audio_pipeline audio_sal nghttp esp-tls esp_netif)
 
 register_component()
 
